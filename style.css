@@ -262,4 +262,25 @@ body{
 input{
     height: 50px;
     border:1px solid rgb(180, 180, 180);
+    padding: 0 10px;
+    font-size: 1.3rem;
+}
+
+.submit{
+    text-transform: capitalize;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.submit:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    
 }
